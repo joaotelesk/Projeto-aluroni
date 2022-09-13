@@ -1,9 +1,12 @@
-import sytle from "./Cardapio.module.scss";
+import sytles from "./Cardapio.module.scss";
+import { ReactComponent as Logo } from "assets/logo.svg";
 
 export default function Cardapio() {
   return (
     <main>
-      <nav className={sytle.menu}></nav>
+      <nav className={sytles.menu}>
+        <Logo />
+      </nav>
     </main>
   );
 }
