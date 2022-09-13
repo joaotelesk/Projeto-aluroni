@@ -29,7 +29,7 @@
 </ul>
 </div>
 
-<hr>
+<br><br>
 
 ## Getting Started with Create React App
 
