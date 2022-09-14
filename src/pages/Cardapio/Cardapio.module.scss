@@ -21,7 +21,9 @@
   background-repeat: no-repeat;
   display: flex;
   height: 300px;
+  width: 100%;
   padding: 0px $padding-horizontal;
+
   @media (max-width: $desktop_xsm) {
     padding: 0px $padding-horizontal-mobile;
   }
@@ -33,9 +35,7 @@
   }
   &_text {
     color: white;
-    font-size: 5rem;
-    min-width: 400px;
-    width: 40%;
+    font-size: 3.5rem;
   }
 }
 
