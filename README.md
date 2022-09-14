@@ -1,5 +1,9 @@
 <div align="center">
 
+<h2>🚧🚧Em Construção🚧🚧</h2>
+<hr>
+<br><br>
+
   <a href="https://github.com/joaotelesk/Projeto-aluroni/tree/main/src">
     <img src="./public/logo.png" alt="Logo" width="80" height="80">
   </a>
@@ -7,7 +11,11 @@
   <h3 align="center">Aluroni</h3>
 
   <p align="center">
-    Projeto do curso: <a href="https://cursos.alura.com.br/course/react-arquivos-estaticos">Alura - React: lidando com arquivos estáticos</a>
+    Projeto dos cursos: 
+    <ul>
+    <li><a href="https://cursos.alura.com.br/course/react-arquivos-estaticos">Alura - React: lidando com arquivos estáticos</a></li>
+     <li><a href="https://cursos.alura.com.br/course/react-arquivos-estaticos">Alura - React: conhecendo a biblioteca React Router</a></li>
+    </ul>
   </p>
 </div>
 <br><br>
@@ -15,7 +23,7 @@
 # Resumo
 
 <div>
-<h3>Projeto de estudo, que visa aprender:</h3>
+<h3>Projeto de estudo que visa aprender:</h3>
 <ul>
 <li>Crie um projeto do zero com Create React App</li>
 <li>Aprenda a utilizar o normalize.css para resetar estilos padrões de navegadores</li>
@@ -24,6 +32,14 @@
 <li>Utilize o pacote classnames para poder utilizar o CSS Modules sem precisar concatenar um monte de estilos CSS e lidar com estilos condicionais</li>
 <li>Aprenda como utilizar o SVGR, um pacote que vem no Create React App para importar svgs como componentes React</li>
 <li>Entenda como o React entende os imports estáticos tanto via arquivos .js quanto em arquivos de estilos como .scss ou .css. Aprenda como importar arquivos estáticos como variáveis via js ou utilizando a pasta public para imports dinâmicos de arquivos estáticos</li>
+
+<li>refatorar um projeto utilizando ESLint</li>
+<li>Desenvolva um código escalável, priorizando um código limpo e fácil de entender</li>
+<li>Utilize o pacote react-router-dom de forma simples e prática, aprendendo todos os conceitos principais da biblioteca
+</li>
+<li>como a biblioteca se integra com o navegador e utiliza de coisas nativas para mudar as rotas e compartilhar estados</li>
+<li>Crie telas navegando entre elas de diversas formas diferentes e reaproveite componentes eles elas</li>
+<li>Entenda sobre nested routes e como criá-las para reaproveitar código e resolver problemas</li>
 </ul>
 </div>
 
