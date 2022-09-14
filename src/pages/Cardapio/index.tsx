@@ -1,5 +1,5 @@
 import styles from "./Cardapio.module.scss";
-import { ReactComponent as Logo } from "assets/logo.svg";
+
 import Buscador from "./Buscador";
 import { useState } from "react";
 import Filtros from "./Filtros";
@@ -11,13 +11,7 @@ export default function Cardapio() {
   const [filtro, setFiltro] = useState<number | null>(null);
   const [ordenador, setOrdenador] = useState("");
   return (
-    <main>
-      <nav className={styles.menu}>
-        <Logo />
-      </nav>
-      <header className={styles.header}>
-        <div className={styles.header_text}>A casa do código e da massa</div>
-      </header>
+    <>
       <section className={styles.cardapio}>
         <h3 className={styles.cardapio_titulo}>Cardapio</h3>
         <Buscador busca={busca} setBusca={setBusca} />
@@ -27,6 +21,6 @@ export default function Cardapio() {
         </div>
         <Itens busca={busca} filtro={filtro} ordenador={ordenador} />
       </section>
-    </main>
+    </>
   );
 }
