@@ -13,6 +13,7 @@
 
   @media (max-width: $desktop_xsm) {
     padding: 0px $padding-horizontal-mobile;
+    width: 100%;
   }
   @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
     padding: 0px $padding-horizontal-sm;
