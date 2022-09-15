@@ -1,16 +1,11 @@
 @import "styles/variaveis";
 @import "styles/breakpoints";
 
-$massas: #d73b3b;
-$carnes: #30201e;
-$combos: #e6c864;
-$veganos: #80aa40;
-
 .item {
   display: flex;
   flex-wrap: wrap;
   width: 90%;
-  &_imagem {
+  &__imagem {
     min-width: 240px;
     @media (max-width: $desktop_xsm) {
       width: 100%;
@@ -20,7 +15,7 @@ $veganos: #80aa40;
       width: 100%;
     }
   }
-  &_descricao {
+  &__descricao {
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -33,7 +28,7 @@ $veganos: #80aa40;
       padding: 0;
     }
   }
-  &_titulo {
+  &__titulo {
     h2 {
       font-size: 2rem;
       font-weight: bold;
@@ -46,57 +41,5 @@ $veganos: #80aa40;
       max-width: 600px;
       margin-bottom: 20px;
     }
-  }
-  &_tags {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    max-width: 700px;
-    @media (max-width: $desktop_xsm) {
-      justify-content: flex-end;
-    }
-    @media (max-width: $mobile) {
-      justify-content: flex-start;
-    }
-    > div {
-      margin: 10px;
-    }
-  }
-  &_tipo {
-    align-items: center;
-    border-radius: 2px;
-    display: flex;
-    font-weight: bold;
-    height: 40px;
-    justify-content: center;
-    padding: 10px 30px;
-    &_massas {
-      background-color: $massas;
-      color: white;
-    }
-    &_carnes {
-      background-color: $carnes;
-      color: white;
-    }
-    &_combos {
-      background-color: $combos;
-    }
-    &_veganos {
-      background-color: $veganos;
-    }
-  }
-  &_porcao,
-  &_qtdpessoas,
-  &_valor {
-    align-items: center;
-    display: flex;
-    font-size: 1.25rem;
-    font-weight: bold;
-    justify-content: center;
-  }
-  &_valor {
-    color: $red;
-    font-size: 1.7rem;
   }
 }

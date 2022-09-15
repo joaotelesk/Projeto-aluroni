@@ -1,53 +1,20 @@
 import styles from "./Item.module.scss";
-import classNames from "classnames";
+import { Prato } from "types/Prato";
+import TagsPrato from "compoonents/TagsPrato";
 
-interface Props {
-  title: string;
-  description: string;
-  photo: string;
-  size: number;
-  serving: number;
-  price: number;
-  id: number;
-  category: {
-    id: number;
-    label: string;
-  };
-}
-export default function Item({
-  title,
-  description,
-  photo,
-  size,
-  serving,
-  price,
-  category,
-}: Props) {
+export default function Item(props: Prato) {
+  const { title, description, photo } = props;
   return (
     <div className={styles.item}>
-      <div className={styles.item_imagem}>
-        <img src={photo} alt={title}></img>
+      <div className={styles.item__imagem}>
+        <img src={photo} alt={title} />
       </div>
-      <div className={styles.item_descricao}>
-        <div className={styles.item_titulo}>
-          <h2>{title}</h2>
-          <p>{description}</p>
+      <div className={styles.item__descricao}>
+        <div className={styles.item__titulo}>
+          <h2> {title} </h2>
+          <p> {description} </p>
         </div>
-        <div className={styles.item_tags}>
-          <div
-            className={classNames({
-              [styles.item_tipo]: true,
-              [styles[`item_tipo_${category.label.toLowerCase()}`]]: true,
-            })}
-          >
-            {category.label}
-          </div>
-          <div className={styles.item_porcao}>{size}g</div>
-          <div className={styles.item_qtdpessoas}>
-            Serve: {serving} pessoa{serving === 1 ? "" : "s"}
-          </div>
-          <div className={styles.item_valor}>R$: {price.toFixed(2)}</div>
-        </div>
+        <TagsPrato {...props} />
       </div>
     </div>
   );
