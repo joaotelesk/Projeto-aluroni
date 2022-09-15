@@ -8,7 +8,7 @@ const imagens = [massa1, massa2];
 export default function Sobre() {
   return (
     <section>
-      <h3 className={stylesTema.titulo}>Sobre</h3>
+      <h3 className={stylesTema.titulo}> Sobre </h3>
       <div className={styles.sobreNos}>
         <img src={casa} alt="Casa Aluroni" />
         <div className={styles.sobreNos_texto}>
@@ -36,7 +36,6 @@ export default function Sobre() {
             <img src={imagem} alt="imagem de massa" />
           </div>
         ))}
-        ;
       </div>
     </section>
   );

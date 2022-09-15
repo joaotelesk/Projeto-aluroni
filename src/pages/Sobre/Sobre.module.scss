@@ -2,6 +2,7 @@
   display: flex;
   gap: 20px;
   margin-bottom: 50px;
+  flex-direction: column;
   &_texto {
     display: flex;
     flex-direction: column;
@@ -9,19 +10,19 @@
     font-size: 1.5rem;
     font-weight: bold;
     text-align: justify;
-
-    p {
+    > p {
       font-family: "Josefin Sans", sans-serif;
     }
   }
 }
+
 .imagens {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: space-between;
   &_imagem {
-    width: 450px;
+    width: 600px;
     img {
       border-radius: 5px;
       width: 100%;
