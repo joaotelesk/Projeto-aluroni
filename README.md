@@ -1,5 +1,7 @@
 <div align="center">
-
+<h2>🚧🚧Em Construção🚧🚧</h2>
+<hr>
+<br><br>
   <a href="https://github.com/joaotelesk/Projeto-aluroni/tree/main/src">
     <img src="./public/logo.png" alt="Logo" width="80" height="80">
   </a>
@@ -11,6 +13,7 @@
     <ul>
     <li><a href="https://cursos.alura.com.br/course/react-arquivos-estaticos">Alura - React: lidando com arquivos estáticos</a></li>
      <li><a href="https://cursos.alura.com.br/course/react-arquivos-estaticos">Alura - React: conhecendo a biblioteca React Router</a></li>
+      <li><a href="https://cursos.alura.com.br/course/react-otimizando-performance">Alura - React: otimizando a performance</a></li>
     </ul>
   </p>
 </div>
@@ -36,6 +39,12 @@
 <li>como a biblioteca se integra com o navegador e utiliza de coisas nativas para mudar as rotas e compartilhar estados</li>
 <li>Crie telas navegando entre elas de diversas formas diferentes e reaproveite componentes eles elas</li>
 <li>Entenda sobre nested routes e como criá-las para reaproveitar código e resolver problemas</li>
+
+<li>analisar componentes e páginas que podem ser mais performáticas</li>
+<li>Conheça a fundo como o React renderiza seus componentes, também termos como Virtual DOM e Reconciliation.</li>
+<li>Aprenda como memoização e imutabilidade se complementam e porque eles são tão importantes no universo React</li>
+<li>Entenda diferenças entre memo e useMemo e quando utilizar cada um deles</li>
+<li>Utilize a extensão React Devtools de forma prática para analisar tempos de renderização de componentes e o motivo dos componentes estarem atualizando</li>
 </ul>
 </div>
 
