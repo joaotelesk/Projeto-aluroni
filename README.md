@@ -1,7 +1,4 @@
 <div align="center">
-<h2>🚧🚧Em Construção🚧🚧</h2>
-<hr>
-<br><br>
   <a href="https://github.com/joaotelesk/Projeto-aluroni/tree/main/src">
     <img src="./public/logo.png" alt="Logo" width="80" height="80">
   </a>
@@ -12,7 +9,7 @@
     Projeto dos cursos: 
     <ul>
     <li><a href="https://cursos.alura.com.br/course/react-arquivos-estaticos">Alura - React: lidando com arquivos estáticos</a></li>
-     <li><a href="https://cursos.alura.com.br/course/react-arquivos-estaticos">Alura - React: conhecendo a biblioteca React Router</a></li>
+     <li><a href="https://cursos.alura.com.br/course/react-biblioteca-react-router">Alura - React: conhecendo a biblioteca React Router</a></li>
       <li><a href="https://cursos.alura.com.br/course/react-otimizando-performance">Alura - React: otimizando a performance</a></li>
     </ul>
   </p>
